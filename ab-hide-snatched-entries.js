@@ -20,7 +20,7 @@ $('a[href*="browse_nav_right"]').click(function() {
             }
         });
     }
-    else (txt == 'Expand all') {
+    else if (txt == 'Expand all') {
         href.removeClass('pressed');
         $("[id*='group_']").show();
     }
